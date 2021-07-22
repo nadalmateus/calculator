@@ -8,9 +8,23 @@ namespace csharp_calculator
         {
             Console.Clear();
             Console.WriteLine("Primeiro Valor");
-            float v1 = float.Parse(Console.ReadLine());
+            float valor1 = float.Parse(Console.ReadLine());
+            Console.WriteLine("");
 
-            Console.WriteLine(v1);
+
+            Console.WriteLine("Primeiro Valor");
+            float valor2 = float.Parse(Console.ReadLine());
+            Console.WriteLine("");
+
+
+            Console.WriteLine("");
+
+            Console.WriteLine($"O resultado da soma é: { valor1 + valor2}");
+
+
+
+
+
         }
     }
 }
